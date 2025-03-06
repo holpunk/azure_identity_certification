@@ -1,0 +1,12 @@
+# write gitignore which can have some terraform related files and sample directories
+```
+.idea
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.terraform
+```
+
+# java related files
+
+```shell
