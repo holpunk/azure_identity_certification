@@ -1,0 +1,22 @@
+This command creates a new user in Azure Active Directory with the specified display name, password, and user principal name. It requires the Azure CLI to be installed and properly authenticated.
+
+
+az ad user create --display-name \"New User\" \
+  --password \"Password\" \
+  --user-principal-name NewUser@contoso.com
+
+
+Other useful Azure CLI commands for managing Azure AD include listing, showing, and deleting users, as well as creating and deleting groups:
+
+1. List all users.
+2. Show a specific user by object ID.
+3. Delete a user.
+4. Create a group.
+5. Delete a group.
+
+
+az ad user list
+az ad user show --id <UserObjectId>
+az ad user delete --id <UserObjectId>
+az ad group create --display-name <GroupName> --mail-nickname <GroupMailNickname>
+az ad group delete --group <GroupObjectId>

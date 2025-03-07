@@ -1,0 +1,28 @@
+why we are having identity?
+1. To have a unique identity for each user.
+2. to prove who are what we are - authentication
+3. to report on what was done - audit
+4. to get permissin to do something - authorization
+to IT masnage and self administer an identity - administraton
+
+what is identity provider?
+1. an IDP is a system that creates manages and stores digital identities.
+microsoft entra id is an example.
+1. a repository fo user identities
+2. a system that authenticates users
+3. security protocols that defend against intrusion.
+4. someone we trust
+
+
+common identity protocols:
+1. openID provider
+  openid connect is an authentication protocol based on oauth2 protocol. which is
+  used for authentication and authorization.. OIDC uses the standardized message
+  flows from oauth2 to provide identity services. specifically a system entity issues. json
+  formatted identity tokens to OIDC relying parties.
+2. SAML
+    security assertion markup language is an open standard for exchanging the authentication
+    and authorization data between an identity provider and service provider.
+    saml is an xml based markup language for security assertions. which are statements
+    that service providers use to make access control decisions.
+
