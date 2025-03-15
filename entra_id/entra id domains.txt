@@ -1,0 +1,41 @@
+Entra id Domains:
+
+
+record types:
+
+
+Record type: A (Address Record)
+Description: Maps a domain name to an IPv4 address.
+Example: example.com. 3600 IN A 192.0.2.1
+
+Record type: AAAA (IPv6 Address Record)
+Description: Maps a domain name to an IPv6 address.
+Example: example.com. 3600 IN AAAA 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+Record type: CNAME (Canonical Name Record)
+Description: Creates an alias for a domain name, pointing it to another domain name.
+Example: www.example.com. 3600 IN CNAME example.com.
+
+Record type: MX (Mail Exchange Record)
+Description: Specifies the mail server responsible for accepting email messages for the domain.
+Example: example.com. 3600 IN MX 10 mail.example.com.
+
+Record type: NS (Name Server Record)
+Description: Specifies the authoritative name server for the domain.
+Example: example.com. 3600 IN NS ns1.example.com.
+
+Record type: PTR (Pointer Record)
+Description: Maps an IP address to a domain name; used primarily for reverse DNS lookups.
+Example: 1.2.3.4.in-addr.arpa. 3600 IN PTR example.com.
+
+Record type: SOA (Start of Authority Record)
+Description: Provides metadata about the zone such as the primary name server, email of the domain administrator, and zone timing parameters.
+Example: example.com. 3600 IN SOA ns1.example.com. hostmaster.example.com. 2022010101 7200 3600 1209600 3600
+
+Record type: SRV (Service Record)
+Description: Specifies the location of servers for specific services, including priority, weight, port, and target.
+Example: _sip._tcp.example.com. 3600 IN SRV 10 60 5060 sipserver.example.com.
+
+Record type: TXT (Text Record)
+Description: Holds arbitrary text data, commonly used for verifying domain ownership or email security (such as SPF records).
+Example: example.com. 3600 IN TXT "v=spf1 include:example.com ~all"
