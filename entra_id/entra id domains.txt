@@ -39,3 +39,6 @@ Example: _sip._tcp.example.com. 3600 IN SRV 10 60 5060 sipserver.example.com.
 Record type: TXT (Text Record)
 Description: Holds arbitrary text data, commonly used for verifying domain ownership or email security (such as SPF records).
 Example: example.com. 3600 IN TXT "v=spf1 include:example.com ~all"
+
+
+
