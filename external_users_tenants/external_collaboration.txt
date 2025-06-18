@@ -1,0 +1,33 @@
+implement and amange external collaboration:
+1. when you manage the external collboration setting. then we take advantage of business-to-business (B2B) collaboration capabilities in Microsoft Entra ID to allow external users to access resources in your organization.
+2. consolidate identities through federation.
+3. no more dependency on the microsofot account.
+built in SSO
+  facebok
+  google
+  SAML / WS-Fed
+conditional access for external users.
+
+invite external users:
+
+1. bulk invite
+process:
+1. create a CSV file with the email addresses of the external users you want to invite.
+2. use the Azure portal or PowerShell to upload the CSV file and send invitations.
+3. external users receive an email invitation to join your organization.
+4. they accept the invitation and create their accounts in your tenant.
+2. individual invite
+process:
+1. use the Azure portal, PowerShell, or Microsoft Graph API to invite a single external user.
+2. provide the user's email address and any additional information required.
+3. the user receives an email invitation to join your organization.
+4. they accept the invitation and create their account in your tenant.
+
+manage external users:
+1. you can manage external users in the Azure portal under "Users" > "External users."
+2. you can view, edit, or delete external user accounts as needed.
+3. you can also assign roles and permissions to external users to control their access to resources.
+
+monitor external collaboration:
+1. use Azure AD logs and reports to monitor external user activities.
+2. set up alerts for unusual activities or policy violations related to external users.
