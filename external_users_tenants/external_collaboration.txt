@@ -3,7 +3,7 @@ implement and amange external collaboration:
 2. consolidate identities through federation.
 3. no more dependency on the microsofot account.
 built in SSO
-  facebok
+  facebook
   google
   SAML / WS-Fed
 conditional access for external users.
